@@ -10,7 +10,7 @@ odoo_instances is used to create local and remote odoo sites, create adn update 
 
 Its main features will be reimplemented in bridge-builder such that we can create functionally identical sites in any of the suported erp systems.
 
-# Fetures ( as now implemedet in odoo_instances)
+# Features ( as now implemedet in odoo_instances)
 - Create sites from well structured description files  
   These description files define:
   - Base tools to install (like CRM)
