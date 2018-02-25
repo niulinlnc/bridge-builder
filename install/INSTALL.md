@@ -22,3 +22,13 @@ and leav it again:
 or just run workon with the name of an other environment. Very handy!
 
 As good python citizen we set up a test environment as our very next step now. To learn how to to that, head over to [Test/Readme.md](./tests/Readme.md)
+
+## make bin/python and bin/pip point to ists correct environment
+Activate a virtual env with `ẁorkon bridgebuilder`
+execute `bin/set_python.py`
+
+## install spinx
+To create the documentation we need to install sphinx  
+`bin/pip install sphinx`
+
+

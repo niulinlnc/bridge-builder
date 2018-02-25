@@ -26,3 +26,4 @@ then:
 `pip install selenium`
 
 ## A simple script to test whether all is in place
+
