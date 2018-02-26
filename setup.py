@@ -1,4 +1,4 @@
-#http://click.pocoo.org/5/why/
+# http://click.pocoo.org/5/why/
 from setuptools import setup, find_packages
 setup(
     name='bridgebuilder',
@@ -10,6 +10,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        createsite=scripts.scripts.createsite:cli
+        bb=scripts.create_site:bb
     ''',
 )

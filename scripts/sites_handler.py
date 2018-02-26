@@ -1,4 +1,4 @@
-#!bin/python
+#!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 import warnings
 import sys
@@ -25,9 +25,9 @@ class UpdateError(subprocess.CalledProcessError):
 #   and must be editted afterwards
 #
 # 2. sites_global/*.py and sites_local/*.py.py
-#   ssites_global contains descriptions of of sites. they are ment to be
+#   sites_global contains descriptions of of sites. they are ment to be
 #   maintained in a remote repo
-#   sites_local1 contain the same list of site descriptions.
+#   sites_local1 contain also a list of site descriptions.
 #   However they will be only handeled on the local computer.
 
 # -------------------------------------------------------------
