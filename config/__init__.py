@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
 import os
+import sys
 
 # BB_HOME points to installation folder of bridge builder
 BB_HOME = os.sep.join( os.path.abspath(__file__).split(os.sep)[:-2])
